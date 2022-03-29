@@ -13,6 +13,7 @@ public class MoveForward : MonoBehaviour
 
     void Update()
     {
+        // Moves projectile forward
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 }

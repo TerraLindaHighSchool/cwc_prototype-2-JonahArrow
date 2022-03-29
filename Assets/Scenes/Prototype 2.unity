@@ -121,12 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &153417509 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4631310124779684910, guid: bb1023ae1fbb46341becac7a0c9aaf19,
-    type: 3}
-  m_PrefabInstance: {fileID: 4631310123982197535}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,12 +213,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50.000004, y: -60.000004, z: 0}
---- !u!1 &421983222 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6220006667579982337, guid: 6fb67f97c32b8f442b2464cb662993d0,
-    type: 3}
-  m_PrefabInstance: {fileID: 6220006665905433723}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &425805626
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,12 +394,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475985833}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &503898055 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1339223904162084553, guid: 857251fb0a0bac24d9b2e8efe1ab4c26,
-    type: 3}
-  m_PrefabInstance: {fileID: 1339223903764661391}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &531570394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -582,9 +564,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 503898055}
-  - {fileID: 153417509}
-  - {fileID: 421983222}
+  - {fileID: 1339223904162084553, guid: 857251fb0a0bac24d9b2e8efe1ab4c26, type: 3}
+  - {fileID: 4631310124779684910, guid: bb1023ae1fbb46341becac7a0c9aaf19, type: 3}
+  - {fileID: 6220006667579982337, guid: 6fb67f97c32b8f442b2464cb662993d0, type: 3}
 --- !u!4 &969386372
 Transform:
   m_ObjectHideFlags: 0
@@ -795,7 +777,7 @@ PrefabInstance:
     - target: {fileID: 4631310124780062194, guid: bb1023ae1fbb46341becac7a0c9aaf19,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4631310124780062194, guid: bb1023ae1fbb46341becac7a0c9aaf19,
         type: 3}
@@ -933,7 +915,7 @@ PrefabInstance:
     - target: {fileID: 6220006667580266289, guid: 6fb67f97c32b8f442b2464cb662993d0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6220006667580266289, guid: 6fb67f97c32b8f442b2464cb662993d0,
         type: 3}
